@@ -1,3 +1,8 @@
-# My Awesome Book
+# PJ Blog
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+> This is a open source code for the blog of build by Laravel 5.3 and Vuejs 2.0.
+
+* [/chapter1.md](/chapter1.md "Installation")
+
+
+
