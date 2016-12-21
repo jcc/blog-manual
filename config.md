@@ -12,4 +12,4 @@ The configuration's list for the `.env`:
 | YOUDAO_API_KEY | Youdao api key used for the chinese article title to translate to the slug |
 | YOUDAO_KEY_FROM | Youdao key form used for the chinese article title to translate to the slug |
 
-If you want to change the blog base information and some things to show, you can edit the `config/blog.php` file to set what you want.
+> If you want to change the blog base information and some things to show, you can edit the `config/blog.php` file to set what you want.
