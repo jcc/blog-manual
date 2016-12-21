@@ -6,6 +6,3 @@
 * [Config](/config.md)
 * Extension
  * [Components](/components.md)
-
-
-

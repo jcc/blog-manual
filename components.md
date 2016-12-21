@@ -28,3 +28,5 @@ export default {
 }
 
 ```
+
+> Notice: you must compile once if you change the `resource/assets` files.
