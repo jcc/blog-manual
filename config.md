@@ -1,5 +1,22 @@
 # Config
 
+The default language is english. If you want to change to chinese, you can change the `config/app.php` file:
+
+```php
+/*
+ |--------------------------------------------------------------------------
+ | Application Locale Configuration
+ |--------------------------------------------------------------------------
+ |
+ | The application locale determines the default locale that will be used
+ | by the translation service provider. You are free to set this value
+ | to any of the locales which will be supported by the application.
+ |
+ */
+
+ 'locale' => 'zh_cn', #options: en/zh_cn
+```
+
 The configuration's list for the `.env`:
 
 | Key | Description |
