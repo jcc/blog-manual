@@ -1,16 +1,21 @@
 # Config
 
-The default language is english. If you want to change to chinese, you can change the `config/app.php` file:
+The default language is english. If you want to change to chinese, you can add the `LOCALE` to the `.env` file:
 
 ```php
- 'locale' => 'zh_cn', #options: en/zh_cn
+LOCALE=zh_cn #options: en/zh_cn
 ```
 
-The configuration's list for the `.env`:
+## The configuration's list for the `.env`:
 
 | Key | Description |
 | --- | --- |
 | DEFAULT_AVATAR | Set the default avatar for the site |
+| DEFAULT_ICON | Set the favicon for the site |
+| ARTICLE_SHARE | If you want to open the social share for the article, you can set `true` for the config. Otherwise, you should set it `false` |
+| DISCUSSION_SHARE | If you want to open the social share for the discussion, you can set `true` for the config. Otherwise, you should set it `false` |
+| SOCIAL_SHARE_SITES | Set the ways for social share |
+| SOCIAL_SHARE_MOBILE_SITES | Set the ways for social share in mobile |
 | GOOGLE_OPEN | If you want to open the google analytics, you should set the config `true` |
 | GOOGLE_ANALYTICS_ID | If you open the google analytics, you must set the google analytics id |
 | GOOGLE_OPEN | If you want to open the google analytics, you should set the config `true` |

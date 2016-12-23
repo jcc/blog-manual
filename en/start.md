@@ -4,7 +4,7 @@ You can learn more how to use the blog system in here.
 
 ## Create Admin
 
-You must to input your name、email and password to register a new account.
+You must to input your name, email and password to register a new account.
 
 Conveniently, you can create a new admin account by the `blog:admin` command:
 

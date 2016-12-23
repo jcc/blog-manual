@@ -1,0 +1,23 @@
+{
+  "gitbook": ">3.0.0",
+  "plugins": ["edit-link", "github"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/jcc/blog-manual/",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/jcc/blog/"
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    },
+    "sidebar": {
+      "Jiajian's Blog": "https://pigjian.com"
+    }
+  },
+  "title": "PJ Blog Manual"
+}
