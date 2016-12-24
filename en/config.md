@@ -18,7 +18,6 @@ LOCALE=zh_cn #options: en/zh_cn
 | SOCIAL_SHARE_MOBILE_SITES | Set the ways for social share in mobile |
 | GOOGLE_OPEN | If you want to open the google analytics, you should set the config `true` |
 | GOOGLE_ANALYTICS_ID | If you open the google analytics, you must set the google analytics id |
-| GOOGLE_OPEN | If you want to open the google analytics, you should set the config `true` |
 | APPLICATION_NAME | Set your application name for the site |
 | TIMEZONE | Set the application timezone for the site |
 | LOCALE | Set the application language for the site |
