@@ -86,3 +86,11 @@ cp .env.example .env
 ```shell
 php artisan blog:install
 ```
+
+> 你应该指定 Web 服务器的网站根目录到 public 文件夹上。index.php 文件是 Laravel 的主要入口文件。
+> 
+> 当然你可以学习更多关于 `Laravel` 的知识：
+> 
+> [Laravel 英文文档](https://laravel.com/docs/5.3)
+> 
+> [Laravel 中文文档](https://laravel-china.org/docs/5.3)

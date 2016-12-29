@@ -85,3 +85,9 @@ You can run the `blog:install` command when you set up:
 ```shell
 php artisan blog:install
 ```
+
+> You must configurate your web server's document / web root to be the `public` directory. 
+> 
+> The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
+> 
+> Of course, you can learn more about `Laravel` in the [Laravel Document](https://laravel.com/docs/5.3)
