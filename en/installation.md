@@ -55,6 +55,30 @@ yarn
 ###### Compile the assets
 
 You can compile once:
+```shell
+npm run dev
+// or
+// yarn run dev
+```
+
+Alternatively, you can also compile with watcher:
+
+```shell
+npm run watch
+// or
+// yarn run watch
+```
+
+Of course, you also compile for your production:
+
+```shell
+npm run production
+// or
+// yarn run production
+```
+
+**Before the version of the 1.1.0**
+You can compile once:
 
 ```shell
 gulp
@@ -90,4 +114,4 @@ php artisan blog:install
 > 
 > The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
 > 
-> Of course, you can learn more about `Laravel` in the [Laravel Document](https://laravel.com/docs/5.3)
+> Of course, you can learn more about `Laravel` in the [Laravel Document](https://laravel.com/docs/5.4)

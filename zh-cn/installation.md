@@ -56,6 +56,30 @@ yarn
 ###### 编译
 
 你可以单次编译：
+```shell
+npm run dev
+// 或者
+// yarn run dev
+```
+
+或者你可以监控资源文件修改：
+
+```shell
+npm run watch
+// 或者
+// yarn run watch
+```
+
+当然，你也可以运行所有任务并压缩所有 CSS 及 JavaScript：
+
+```shell
+npm run production
+// 或者
+// yarn run production
+```
+
+**在 1.1.0 版本之前**
+你可以单次编译：
 
 ```shell
 gulp
