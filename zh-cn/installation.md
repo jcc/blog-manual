@@ -29,7 +29,7 @@ composer install --no-dev
 
 #### 安装前端依赖
 
-###### 安装 `Gulp`
+###### 安装 `Gulp` (1.0 需要安装，1.1 后改用 webpack 不需要安装 gulp, 此步跳过)
 
 ```shell
 npm install --global gulp
@@ -41,7 +41,7 @@ npm install --global gulp
 yarn add global gulp
 ```
 
-###### 安装 `Laravel Elixir` 和 `Vuejs` 的依赖:
+###### 安装 `Laravel Mix` ( 1.0 使用的是 `Laravel Elixir` ) 和 `Vuejs` 的依赖:
 
 ```shell
 npm install
