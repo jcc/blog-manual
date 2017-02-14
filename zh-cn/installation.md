@@ -29,19 +29,9 @@ composer install --no-dev
 
 #### 安装前端依赖
 
-###### 安装 `Gulp` (1.0 需要安装，1.1 后改用 webpack 不需要安装 gulp, 此步跳过)
+##### v1.1.* 版本
 
-```shell
-npm install --global gulp
-```
-
-或者你可以使用 `yarn` 代替 `npm` 节省下载安装时间：
-
-```shell
-yarn add global gulp
-```
-
-###### 安装 `Laravel Mix` ( 1.0 使用的是 `Laravel Elixir` ) 和 `Vuejs` 的依赖:
+###### 安装 `Laravel Mix` 和 `Vuejs` 的依赖:
 
 ```shell
 npm install
@@ -78,7 +68,34 @@ npm run production
 // yarn run production
 ```
 
-**在 1.1.0 版本之前**
+##### v1.0.* 版本
+
+###### 安装 `Gulp`
+
+```shell
+npm install --global gulp
+```
+
+或者你可以使用 `yarn` 代替 `npm` 节省下载安装时间：
+
+```shell
+yarn add global gulp
+```
+
+###### 安装 `Laravel Elixir` 和 `Vuejs` 的依赖:
+
+```shell
+npm install
+```
+
+或者
+
+```shell
+yarn
+```
+
+###### 编译
+
 你可以单次编译：
 
 ```shell

@@ -28,17 +28,7 @@ composer install --no-dev
 
 #### Install Front-end Repositories
 
-###### Install the `Gulp` ( The version of 1.0, you must install `gulp` )
-
-```shell
-npm install --global gulp
-```
-
-Alternatively, you can use `yarn` instead of `npm`:
-
-```shell
-yarn add global gulp
-```
+##### The version of v1.1.*
 
 ###### Install Laravel Mix ( use Laravel Elixir in v1.0 ) and Vuejs repositories:
 
@@ -77,7 +67,34 @@ npm run production
 // yarn run production
 ```
 
-**Before the version of the 1.1.0**
+##### The version of 1.0.*
+
+###### Install the `Gulp` ( The version of 1.0, you must install `gulp` )
+
+```shell
+npm install --global gulp
+```
+
+Alternatively, you can use `yarn` instead of `npm`:
+
+```shell
+yarn add global gulp
+```
+
+###### Install Laravel Elixir and Vuejs repositories:
+
+```shell
+npm install
+```
+
+or
+
+```shell
+yarn
+```
+
+###### Compile the assets
+
 You can compile once:
 
 ```shell
