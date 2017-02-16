@@ -10,6 +10,7 @@ LOCALE=zh_cn #options: en/zh_cn
 
 | 关键字 | 描述 |
 | --- | --- |
+| MAIL_NOTIFICATION | 是否开启邮件通知发送（开启则需要设置邮件驱动），默认为 `false`，开启则设置为 `true` |
 | DEFAULT_AVATAR | 设置站点的默认头像 |
 | DEFAULT_ICON | 设置站点的 Favicon |
 | ARTICLE_SHARE | 文章是否开放分享，如开启则设置为 `true`，否则为 `false` |

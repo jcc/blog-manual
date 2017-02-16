@@ -10,6 +10,7 @@ LOCALE=zh_cn #options: en/zh_cn
 
 | Key | Description |
 | --- | --- |
+| MAIL_NOTIFICATION | Whether to open the mail notification to send (open need to set the mail driver), the default is `false`, open is set to` true` |
 | DEFAULT_AVATAR | Set the default avatar for the site |
 | DEFAULT_ICON | Set the favicon for the site |
 | ARTICLE_SHARE | If you want to open the social share for the article, you can set `true` for the config. Otherwise, you should set it `false` |
