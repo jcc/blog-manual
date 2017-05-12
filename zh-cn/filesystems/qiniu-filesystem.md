@@ -1,6 +1,6 @@
 # 文件系统 - 七牛
 
-默认文件系统为 `local`, 当然你可以扩展文件系统，将文件上传到云端上。此处我们使用七牛的对象存储，我们所使用的包：
+默认文件系统为 `local`, 当然你可以扩展文件系统，将文件上传到云端上。七牛文件系统所使用的包：
 
 * [zgldh/qiniu-laravel-storage](https://github.com/zgldh/qiniu-laravel-storage)
 
