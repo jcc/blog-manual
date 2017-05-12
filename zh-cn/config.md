@@ -29,5 +29,10 @@ LOCALE=zh_cn #options: en/zh_cn
 | GITHUB_REDIRECT | Github Clicent Redirect, 如果该站点可以通过 Github 进行注册登录，请填写此参数 |
 | YOUDAO_API_KEY | Youdao api key，如果你需要使用有道 API 去将文章标题翻译为 可读性更好的 Slug 则设置此参数 |
 | YOUDAO_KEY_FROM | Youdao key form，同上 |
+| UPYUN_BUCKET | 又拍云服务名字 |
+| UPYUN_OPERATOR | 又拍云操作员的名字 |
+| UPYUN_PASSWORD | 又拍云操作员的密码 |
+| UPYUN_DOMAIN | 又拍云服务分配的域名 |
+| UPYUN_PROTOCOL | 又拍云服务使用的协议，如 https、http |
 
 > 如果你想改变博客基本信息以及一些文本的显示，你可以编辑 `config/blog.php` 文件，设置你想要的配置。
