@@ -24,7 +24,7 @@ git clone git@github.com:jcc/blog.git
 You need to install the Laravel repositories:
 
 ```shell
-composer install --no-dev
+composer install
 ```
 
 #### 安装前端依赖

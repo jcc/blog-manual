@@ -23,7 +23,7 @@ git clone git@github.com:jcc/blog.git
 Install the PHP dependencies:
 
 ```shell
-composer install --no-dev
+composer install
 ```
 
 #### Install Front-end Dependencies
