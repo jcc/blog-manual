@@ -4,7 +4,7 @@
 
 ### Download Project
 
-You can install Blog by issuing the Composer `creare-project` command in your terminal:
+You can install Blog by issuing the Composer `create-project` command in your terminal:
 
 ```shell
 composer create-project jcc/blog
