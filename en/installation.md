@@ -79,6 +79,12 @@ Afterward, run the `blog:install` artisan command:
 php artisan blog:install
 ```
 
+#### Update Directory Permissions
+
+Laravel requires directories within the `storage` and the `bootstrap/cache` directories to be writable by your web server.
+
+#### Public Directory
+
 > You must configure your web server's document/web root to be the `public` directory.
 > 
 > The `index.php` in this directory serves as the entry point for all HTTP page requests in your application.
