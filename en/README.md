@@ -1,6 +1,6 @@
 # PJ Blog
 
-> This is a open source code for the blog of build by Laravel 5.* and Vuejs 2.*.
+> This is an open source blog built on Laravel 5.&ast; and Vuejs 2.&ast;
 
 * [Installation](/installation.md)
 * [Getting Started](/start.md)

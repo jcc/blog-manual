@@ -1,36 +1,34 @@
 # Installation
 
-> The page is introduced how to install the blog.
+> The page describes how to install the blog.
 
 ### Download Project
 
-You can install Blog by issuing the Composer `create-project` command in your terminal:
+You can install PJ Blog by issuing the Composer `create-project` command in your terminal:
 
 ```shell
 composer create-project jcc/blog
 ```
 
-Alternatively, you may also install by `git clone`  command in your terminal:
+Alternatively, you may install it via `git clone`:
 
 ```shell
 git clone git@github.com:jcc/blog.git
 ```
 
-### Install Repositories
+### Install Dependencies
 
-#### Install Laravel Repositories
+#### Install PHP Dependencies
 
-You need to install the Laravel repositories:
+Install the PHP dependencies:
 
 ```shell
 composer install --no-dev
 ```
 
-#### Install Front-end Repositories
+#### Install Front-end Dependencies
 
-##### The version of v1.1.*
-
-###### Install Laravel Mix ( use Laravel Elixir in v1.0 ) and Vuejs repositories:
+###### Install Laravel Mix, Vuejs, and other Front-end Dependencies:
 
 ```shell
 npm install
@@ -51,7 +49,7 @@ npm run dev
 // yarn run dev
 ```
 
-Alternatively, you can also compile with watcher:
+Alternatively, you can compile and run the watcher:
 
 ```shell
 npm run watch
@@ -59,7 +57,7 @@ npm run watch
 // yarn run watch
 ```
 
-Of course, you also compile for your production:
+To compile for production:
 
 ```shell
 npm run production
@@ -67,53 +65,7 @@ npm run production
 // yarn run production
 ```
 
-##### The version of 1.0.*
-
-###### Install the `Gulp` ( The version of 1.0, you must install `gulp` )
-
-```shell
-npm install --global gulp
-```
-
-Alternatively, you can use `yarn` instead of `npm`:
-
-```shell
-yarn add global gulp
-```
-
-###### Install Laravel Elixir and Vuejs repositories:
-
-```shell
-npm install
-```
-
-or
-
-```shell
-yarn
-```
-
-###### Compile the assets
-
-You can compile once:
-
-```shell
-gulp
-```
-
-Alternatively, you can also compile with watcher:
-
-```shell
-gulp watch
-```
-
-Of course, you also compile for your production:
-
-```shell
-gulp --production
-```
-
-### Modify Configuration
+### Modify App Configuration
 
 Copy the `.env.example` to `.env`:
 
@@ -121,14 +73,14 @@ Copy the `.env.example` to `.env`:
 cp .env.example .env
 ```
 
-You can run the `blog:install` command when you set up:
+Afterward, run the `blog:install` artisan command:
 
 ```shell
 php artisan blog:install
 ```
 
-> You must configurate your web server's document / web root to be the `public` directory. 
+> You must configure your web server's document/web root to be the `public` directory.
 > 
-> The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
+> The `index.php` in this directory serves as the entry point for all HTTP page requests in your application.
 > 
-> Of course, you can learn more about `Laravel` in the [Laravel Document](https://laravel.com/docs/5.4)
+> Of course, you can learn more about `Laravel` in the [Laravel Docs](https://laravel.com/docs/5.5)
