@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Installation](/installation.md)
-* [Getting Start](/start.md)
+* [Getting Started](/start.md)
 * [Config](/config.md)
 * Extension
  * [Components](/components.md)
