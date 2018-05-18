@@ -24,4 +24,4 @@ UPYUN_DOMAIN=xxxxx.b0.upaiyun.com // 服务分配的域名
 UPYUN_PROTOCOL=https // 服务使用的协议，如 http
 ```
 
-配置好以上的配置即可愉快使用又拍云服务。
+配置好以上的配置即可愉快使用又拍云服务。推荐注册链接：[https://console.upyun.com/register/?invite=rkUyikqj-](https://console.upyun.com/register/?invite=rkUyikqj-)
